@@ -66,6 +66,41 @@ jobs:
           #
           # ========================固件定制部分========================
           # 
+          # 我的congig  YouKu YK-L1
+          CONFIG_TARGET_ramips=y
+          CONFIG_TARGET_ramips_mt7620=y
+          CONFIG_TARGET_ramips_mt7620_DEVICE_youku_yk1=y
+          CONFIG_NODEJS_ICU_NONE=y
+          CONFIG_PACKAGE_UnblockNeteaseMusic=y
+          CONFIG_PACKAGE_UnblockNeteaseMusicGo=y
+          CONFIG_PACKAGE_appfilter=y
+          # CONFIG_PACKAGE_etherwake is not set
+          CONFIG_PACKAGE_kmod-oaf=y
+          # CONFIG_PACKAGE_kmod-tun is not set
+          CONFIG_PACKAGE_libatomic=y
+          CONFIG_PACKAGE_libcares=y
+          CONFIG_PACKAGE_libhttp-parser=y
+          CONFIG_PACKAGE_libnghttp2=y
+          # CONFIG_PACKAGE_libuuid is not set
+          CONFIG_PACKAGE_libuv=y
+          # CONFIG_PACKAGE_luci-app-accesscontrol is not set
+          CONFIG_PACKAGE_luci-app-oaf=y
+          # CONFIG_PACKAGE_luci-app-upnp is not set
+          # CONFIG_PACKAGE_luci-app-vlmcsd is not set
+          # CONFIG_PACKAGE_luci-app-vsftpd is not set
+          # CONFIG_PACKAGE_luci-app-wol is not set
+          # CONFIG_PACKAGE_luci-app-zerotier is not set
+          CONFIG_PACKAGE_luci-i18n-oaf-zh-cn=y
+          CONFIG_PACKAGE_luci-theme-argon=y
+          # CONFIG_PACKAGE_miniupnpd is not set
+          CONFIG_PACKAGE_node=y
+          # CONFIG_PACKAGE_vlmcsd is not set
+          # CONFIG_PACKAGE_vsftpd-alt is not set
+          # CONFIG_PACKAGE_zerotier is not set
+          CONFIG_UnblockNeteaseMusic_Go=y
+          CONFIG_UnblockNeteaseMusic_NodeJS=y
+          CONFIG_PACKAGE_libminiupnpc=y
+          CONFIG_PACKAGE_libnatpmp=y
 
           # 
           # 如果不对本区块做出任何编辑, 则生成默认配置固件. 
